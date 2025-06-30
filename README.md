@@ -10,7 +10,7 @@ Desenvolvido para a Atividade Prática III da disciplina de Programação Orient
 Este projeto atende **100% das exigências** da Atividade Prática ATVIII:
 
 - Interface gráfica (GUI) moderna e responsiva
-- Componentes **React exclusivamente em classes**
+- Componentes **React com hooks e funções** (refatorado de classes)
 - Navegação entre telas sem backend
 - Funcionalidades da Atividade 1 reimplementadas com interface visual:
   - Cadastro, listagem, edição e exclusão de clientes, produtos e serviços (CRUD)
@@ -22,7 +22,7 @@ Este projeto atende **100% das exigências** da Atividade Prática ATVIII:
 
 ## Tecnologias
 
-- **React 19.1.0** com componentes de classe
+- **React 19.1.0** com componentes funcionais e hooks
 - **TypeScript 5.8.3**
 - **Material-UI 7.1.2** 
 - **Vite 7.0.0**
@@ -66,7 +66,7 @@ npm run dev
 
 ```
 src/
-├── componentes/        # 12 componentes React (classes puras)
+├── componentes/        # 12 componentes React (funções com hooks)
 ├── dados/             # Populador de dados de teste
 ├── modelo/            # Classes de domínio da Atividade I
 ├── tema/              # Tema Material-UI
